@@ -1,0 +1,240 @@
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@400;700;800&display=swap');
+
+body {
+    font-family: 'Nanum Gothic', sans-serif;
+    font-size: 16px;
+}
+a {
+    color: inherit;
+    text-decoration: none;
+}
+/* img {
+    display: block;
+} */
+.btn {
+    display: block;
+    font-size: 14px;
+    background: #111111;
+    width: 168px;
+    height: 46px;
+    border-radius: 46px;
+    color: #ffffff;
+    text-align: center;
+    line-height: 30px;
+}
+/* header */
+.header {
+    height: 80px;
+    display: flex;
+    align-items: center;
+    color: #111111;
+    background: #ffffff;
+    padding: 0 40px;
+    /* display: flex;
+    align-items: center;
+    justify-content: center; */
+    /* position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%; */
+}
+.header .logo {
+    font-size: 40px;
+    font-weight: 800;
+    margin-right: auto;
+}
+.header ul {
+    display: flex;
+    margin-right: 60px;
+}
+.header ul li a {
+    font-size: 14px;
+    display: block;
+    padding: 0 58px;
+    height: 80px;
+    line-height: 80px;
+}
+.header i {
+    width: 24px;
+    height: 24px;
+}
+.header ul li a:hover {
+    color: #EB5757;
+}
+/* container */
+.container {
+    width: 1162px;
+    margin: 0 auto;
+}
+/* slide */
+.slide_container {
+    /* width: 1160px; */
+    height: 700px;
+    background-color: #F5F5F5;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    /* background-size: cover; */
+}
+.container_slide {
+    width: 1160px;
+    background: url(../images/galaxy/slide_bg.jpg) no-repeat;
+    background-position: right;
+}
+/* .container .slide {
+    display: flex;
+    height: 600px;
+    justify-content: center;
+    flex-direction: row;
+} */
+.slde_text {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.slide_container h2 {
+    font-size: 60px;
+    font-weight: 800;
+}
+.slide_btn {
+    width: 459px;
+    height: 252px;
+    display: flex;
+    align-items: center;
+    justify-content: space-;
+}
+.slide_btn_R {
+    width: 168px;
+    height: 46px;
+    background: #111111;
+    color: #ffffff;
+    text-align: center;
+    line-height: 46px;
+    border-radius: 50px;
+    margin-left: 40px;
+}
+
+
+/* content */
+.content {
+
+}
+/* section_01  */
+.sec_01 .container_01,
+.sec_01 .container_02 {
+    
+}
+.sec_01 {
+    height: 600px;
+    display: flex;
+    align-items: center;
+}
+.sec_01 .container {
+    width: 1160px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.watch {
+    width: 560px;
+    height: 320px;
+    background: url(../images/galaxy/bg_01.png);
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.watch_img {
+    width: 150px;
+    height: 160px;
+    margin-right: 38px;
+}
+.buds_img {
+    width: 150px;
+    height: 160px;
+    margin-right: 49px;
+}
+.watch_text {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-left: 30px;
+    /* margin-top: 89px; */
+}
+.watch_text h4,
+.buds_text h4 {
+    font-size: 30px;
+    font-weight: 800;
+}
+.watch_text p,
+.buds_text p {
+    font-size: 16px;
+    color: #666666;
+    margin-top: 21px;
+}
+.watch_btn,
+.buds_btn {
+    width: 121px;
+    height: 36px;
+    border-radius: 36px;
+    text-align: center;
+    line-height: 35px;
+    /* background: red; */
+    border: 1px solid #111111;
+    margin-top: 37px;
+}
+.buds {
+    width: 560px;
+    height: 320px;
+    background: url(../images/galaxy/bg_01.png);
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+/* section_02 */
+.sec_02.container [
+    
+]
+.sec_02 .container {
+    width: 1160px;
+}
+
+
+.sec_02_text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.sec_02_text h3 {
+    font-size: 30px;
+    font-weight: 800;
+    margin-top: 0 auto;
+    padding-bottom: 32px;
+}
+.sec_02_text p {
+    font-size: 16px;
+    color: #666666;
+}
+.img_box {
+    display: flex;
+    align-items: center;
+}
+.img_box_01,
+.img_box_02,
+.img_box_03,
+.img_box_04 {
+    background: url(../images/galaxy/bg_02.png) no-repeat;
+    width: 260px;
+    height: 260px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+

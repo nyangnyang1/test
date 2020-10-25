@@ -1,0 +1,32 @@
+.container {
+    width: 560px;
+    height: 320px;
+    background: url(../images/galaxy/bg_01.png);
+      
+}
+.watch_img {
+    width: 150px;
+    height: 160px;
+    margin-top: 80px;
+    margin-left: 40px;
+}
+.watch {
+    display: flex;
+    align-items: center;
+}
+.watch_text {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-top: 89px;
+    margin-left: 20px;
+}
+.watch_btn {
+    width: 121px;
+    height: 36px;
+    border-radius: 36px;
+    background: #111111;
+    color: #ffffff;
+    line-height: 36px;
+    text-align: center;
+}
